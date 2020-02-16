@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Primefaces_Forms_DataTable_Ajax">
+	<test name="primefaces_Element_Selections" allow-return-values="true">
+		<classes>
+			<class name="com.lean.qa.TestCases.primefacesFormElementSelectionsTest"></class>
+		</classes>
+	</test>
+
+
+
+	<test name="primefaces_DataTable">
+		<classes>
+			<class name="com.lean.qa.TestCases.primefacesDataTableTest"></class>
+		</classes>
+	</test>
+
+
+
+	<test name="primefaces_Ajax_DropDown" allow-return-values="true">
+		<classes>
+			<class name="com.lean.qa.TestCases.primefacesAjaxDropDownTest"></class>
+		</classes>
+	</test>
+</suite>

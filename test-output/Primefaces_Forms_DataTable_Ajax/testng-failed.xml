@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Primefaces_Forms_DataTable_Ajax]">
+  <test thread-count="5" name="primefaces_Element_Selections(failed)">
+    <classes>
+      <class name="com.lean.qa.TestCases.primefacesFormElementSelectionsTest">
+        <methods>
+          <include name="testInputNameInvalid"/>
+          <include name="testSelectDate"/>
+          <include name="tearDown"/>
+          <include name="testInputEmailInvalid"/>
+          <include name="testInputPhoneInvalid"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.lean.qa.TestCases.primefacesFormElementSelectionsTest -->
+    </classes>
+  </test> <!-- primefaces_Element_Selections(failed) -->
+  <test thread-count="5" name="primefaces_Ajax_DropDown(failed)">
+    <classes>
+      <class name="com.lean.qa.TestCases.primefacesAjaxDropDownTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAjaxDropdown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.lean.qa.TestCases.primefacesAjaxDropDownTest -->
+    </classes>
+  </test> <!-- primefaces_Ajax_DropDown(failed) -->
+</suite> <!-- Failed suite [Primefaces_Forms_DataTable_Ajax] -->
